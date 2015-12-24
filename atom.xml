@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Smell like teen spirit]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-12-24T21:08:30.679Z</updated>
+  <updated>2015-12-24T21:47:18.963Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,19 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Sulime Text 2在Ubuntu上的安装和配置（二）]]></title>
+    <link href="http://yoursite.com/2015/12/25/Sulime-Text-2%E5%9C%A8Ubuntu%E4%B8%8A%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
+    <id>http://yoursite.com/2015/12/25/Sulime-Text-2在Ubuntu上的安装和配置（二）/</id>
+    <published>2015-12-24T21:47:18.000Z</published>
+    <updated>2015-12-24T21:47:18.963Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Sulime Text 2在Ubuntu上的安装和配置（一）]]></title>
