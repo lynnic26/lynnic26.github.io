@@ -273,25 +273,12 @@
 
       
         
-          
-            <h2 id="u7F8E_u5316_u7BC7"><a href="#u7F8E_u5316_u7BC7" class="headerlink" title="美化篇"></a>美化篇</h2><h3 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a>前言</h3><p>上次我们讲了如何安装sublime,现在我们已经可以使用sublime进行文本编写了。<br>现在的sublime功能也只限于进行简单的文本编辑，我们需要进行一系列的配置使它能够满足代码编写的需求。</p>
-<h3 id="1-__u7F8E_u5316_u754C_u9762"><a href="#1-__u7F8E_u5316_u754C_u9762" class="headerlink" title="1. 美化界面"></a>1. 美化界面</h3><p>sublime本身的界面不太好看，幸运的是有很多主题可以使用，这里我推荐一下自己现在使用的主题<a href="https://github.com/thinkpixellab/flatland" target="_blank" rel="external">Flatland</a></p>
-<p>首先，你需要去github上克隆Flatland的主题包</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> git://github.com/thinkpixellab/flatland.git <span class="string">"Theme - Flatland"</span></span><br></pre></td></tr></table></figure>
-<p>解压后复制在sublime的包目录里，<strong>Preferences &gt; Browse Packages</strong>。接着你需要激活一下这个主题，在<strong>Preferences &gt; Settings - User</strong> 配置如下代码：</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="string">"theme"</span>: <span class="string">"Flatland Dark.sublime-theme"</span>,</span><br><span class="line">  <span class="string">"color_scheme"</span>: <span class="string">"Packages/Theme - Flatland/Flatland Dark.tmTheme"</span></span><br><span class="line">  </span><br><span class="line">  <span class="comment">// 以下为其他可选配置</span></span><br><span class="line">  <span class="comment">//tabs是否使用圆角</span></span><br><span class="line">  </span><br><span class="line">  <span class="string">"flatland_square_tabs"</span>: <span class="literal">true</span>,</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 是否在Flatland里使用sublime默认的Monokai颜色模式</span></span><br><span class="line">  <span class="string">"color_scheme"</span>: <span class="string">"Packages/Theme - Flatland/Flatland Monokai.tmTheme"</span>,</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 可以卡边侧边栏文件树目录的显示行高</span></span><br><span class="line">  <span class="comment">// 可选: xsmall, small, medium, large, xlarge</span></span><br><span class="line">  <span class="string">"flatland_sidebar_tree_xsmall"</span> : <span class="literal">true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>现在你的sublime是不是比原来好看多了？</p>
-<h3 id="2-__u8BBE_u7F6E_u7F16_u7A0B_u5B57_u4F53"><a href="#2-__u8BBE_u7F6E_u7F16_u7A0B_u5B57_u4F53" class="headerlink" title="2. 设置编程字体"></a>2. 设置编程字体</h3><p>有一款舒服的代码字体也能提高编程愉悦感，只不过ubuntu的字体安装可不像windows里一样容易。这里推荐一款适合中文编程的字体<strong>Microsoft Yahei Mono</strong>。下载的<em>.ttf文件放入<em>*/usr/share/fonts/</em></em>的任意文件夹里，这里我们放入sublimefont中</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo mkdir -p /usr/share/fonts/vista</span><br><span class="line">$ sudo cp your_ttf_font_file_dir /usr/share/fonts/sublimefont/</span><br></pre></td></tr></table></figure>
-<p>更改权限</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo chmod <span class="number">644</span> /usr/share/fonts/sublimefont/*.ttf</span><br></pre></td></tr></table></figure>
-<p>安装字体：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /usr/share/fonts/sublimefont/</span><br><span class="line">$ sudo mkfontscale</span><br><span class="line">$ sudo mkfontdir</span><br><span class="line">$ sudo <span class="built_in">fc</span>-cache -fv</span><br></pre></td></tr></table></figure>
-<p>最后要在sublime激活这个字体，<strong>Preferences &gt; Settings - User</strong>添加</p>
-<figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"font_face"</span>: <span class="string">"Microsoft Yahei Mono"</span></span><br></pre></td></tr></table></figure>
-<p>现在你坐在屏幕前，愉悦着敲着代码，然而突然发现，居然不能输入中文 TAT<br>嘿嘿，下集见</p>
-
-          
+          <h2 id="u7F8E_u5316_u7BC7"><a href="#u7F8E_u5316_u7BC7" class="headerlink" title="美化篇"></a>美化篇</h2><h3 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a>前言</h3><p>上次我们讲了如何安装sublime,现在我们已经可以使用sublime进行文本编写了。<br>现在的sublime功能也只限于进行简单的文本编辑，我们需要进行一系列的配置使它能够满足代码编写的需求。在这个看脸的时代，我们自然不能放过代码编辑器。<br>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2015/12/25/Sulime-Text-2在Ubuntu上的安装和配置（二）/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>

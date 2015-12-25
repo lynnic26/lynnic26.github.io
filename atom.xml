@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Smell like teen spirit]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-12-25T08:51:41.001Z</updated>
+  <updated>2015-12-25T08:52:58.493Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <link href="http://yoursite.com/2015/12/25/Sulime-Text-2%E5%9C%A8Ubuntu%E4%B8%8A%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
     <id>http://yoursite.com/2015/12/25/Sulime-Text-2在Ubuntu上的安装和配置（二）/</id>
     <published>2015-12-24T21:47:18.000Z</published>
-    <updated>2015-12-25T08:51:41.001Z</updated>
-    <content type="html"><![CDATA[<h2 id="u7F8E_u5316_u7BC7"><a href="#u7F8E_u5316_u7BC7" class="headerlink" title="美化篇"></a>美化篇</h2><h3 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a>前言</h3><p>上次我们讲了如何安装sublime,现在我们已经可以使用sublime进行文本编写了。<br>现在的sublime功能也只限于进行简单的文本编辑，我们需要进行一系列的配置使它能够满足代码编写的需求。</p>
+    <updated>2015-12-25T08:52:58.493Z</updated>
+    <content type="html"><![CDATA[<h2 id="u7F8E_u5316_u7BC7"><a href="#u7F8E_u5316_u7BC7" class="headerlink" title="美化篇"></a>美化篇</h2><h3 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a>前言</h3><p>上次我们讲了如何安装sublime,现在我们已经可以使用sublime进行文本编写了。<br>现在的sublime功能也只限于进行简单的文本编辑，我们需要进行一系列的配置使它能够满足代码编写的需求。在这个看脸的时代，我们自然不能放过代码编辑器。<br><a id="more"></a></p>
 <h3 id="1-__u7F8E_u5316_u754C_u9762"><a href="#1-__u7F8E_u5316_u754C_u9762" class="headerlink" title="1. 美化界面"></a>1. 美化界面</h3><p>sublime本身的界面不太好看，幸运的是有很多主题可以使用，这里我推荐一下自己现在使用的主题<a href="https://github.com/thinkpixellab/flatland" target="_blank" rel="external">Flatland</a></p>
 <p>首先，你需要去github上克隆Flatland的主题包</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> git://github.com/thinkpixellab/flatland.git <span class="string">"Theme - Flatland"</span></span><br></pre></td></tr></table></figure>
@@ -38,7 +38,8 @@
 <p>现在你坐在屏幕前，愉悦着敲着代码，然而突然发现，居然不能输入中文 TAT<br>嘿嘿，下集见</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="u7F8E_u5316_u7BC7"><a href="#u7F8E_u5316_u7BC7" class="headerlink" title="美化篇"></a>美化篇</h2><h3 id="u524D_u8A00"><a href="#u524D_u8A0]]>
+    <![CDATA[<h2 id="u7F8E_u5316_u7BC7"><a href="#u7F8E_u5316_u7BC7" class="headerlink" title="美化篇"></a>美化篇</h2><h3 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a>前言</h3><p>上次我们讲了如何安装sublime,现在我们已经可以使用sublime进行文本编写了。<br>现在的sublime功能也只限于进行简单的文本编辑，我们需要进行一系列的配置使它能够满足代码编写的需求。在这个看脸的时代，我们自然不能放过代码编辑器。<br>]]>
+    
     </summary>
     
       <category term="sublime 美化" scheme="http://yoursite.com/tags/sublime-%E7%BE%8E%E5%8C%96/"/>
